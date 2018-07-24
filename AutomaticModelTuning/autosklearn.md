@@ -1,15 +1,9 @@
 ### Efficient and Robust Automated Machine Learning: Auto-sklearn ([reference]( https://papers.nips.cc/paper/5872-efficient-and-robust-automated-machine-learning.pdf))
-![Alt text](./1526565560266.png)
-
-
-
-
-
 
 - **Finding instantiation of the ML framework**
 	- collect **meta-features** for the current dataset and the previous seen dataset
 	- statistical meta-featrues: #data points, distribution of features, data skewness ...
-	- compare the meta-features (use $L_1$ distance) and rank the 'similarity' the dataset with the existing sets
+	- compare the meta-features (use `L_1` distance) and rank the 'similarity' the dataset with the existing sets
 	- determine which algorithm might be the most suitable setting for the current dataset
 	- provide general direction, but not fine-grained performance
 
